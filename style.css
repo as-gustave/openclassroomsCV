@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('police/Cantarell-Regular-webfont.eot');
+    src: url('police/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Cantarell-Regular-webfont.woff2') format('woff2'),
+         url('police/Cantarell-Regular-webfont.woff') format('woff'),
+         url('police/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('police/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*corps de la page */
+
+body{
+    font-family: 'cantarellregular', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+/* fin */
+
+/* liseret */
+
+#liseret{
+    width: 300px;
+    height: 1400px;
+    background-color: #795548  ;
+}
+
+#liseret img{
+    width: 80%;
+    border: solid 5px #4b352d ;
+    border-radius: 50%;
+}
+
+#liseret p{
+    text-align: center;
+    font-size: 1em;
+}
+
+#liseret h1{
+    background-color: rgb(26, 22, 22);
+    font-size: 1.6em;
+    color:#795548;
+    text-align: center;
+}
+
+.propos{
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+}
+
+#icone img{
+    border: solid 4px black;
+    margin: 0.2em;
+    border-radius: 15px;
+    width: 45px;
+}
+
+/* fin */
+
+/* page */
+
+#page{
+    display: flex;
+}
+
+/* fin */
+
+/* contenu */
+
+#contenu{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+section ul{
+    list-style-type: none;
+}
+
+
+#experience, #recommandation, #formation{
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+#experience h1, #recommandation h1, #formation h1{
+    border-bottom: solid 3px #795548 ;
+}
+
+#formation img, #experience img, #recommandation img{
+    width: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* fin */
+
+/* Mon identité */
+
+.nom{
+    color: #795548;
+}
+
+#profil{
+    text-indent: 3em;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 10%;
+}
+
+/* fin */
+
+/* media queries */
+@media all and (max-width:1024px){
+    #contenu{
+        flex-direction: column;
+        width: auto;
+    }
+    #liseret{
+        display: none;
+    }
+    #experience, #recommandation, #formation{
+        width: 100%;
+        text-align: justify;
+    }
+}
