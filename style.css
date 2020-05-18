@@ -88,12 +88,21 @@ section ul{
 
 #experience h1, #recommandation h1, #formation h1{
     border-bottom: solid 3px #795548 ;
+    margin-left: 5%;
 }
 
 #formation img, #experience img, #recommandation img{
     width: 30px;
-    margin-left: 5%;
     margin-right: 5%;
+    
+}
+
+#contacts{
+    display: flex;
+}
+
+#contacts ul{
+    margin-right: 10%;
 }
 
 /* fin */
@@ -112,6 +121,12 @@ section ul{
     margin-bottom: 10%;
 }
 
+#formation1{
+    display: flex;    
+}
+
+#formation12{
+}
 /* fin */
 
 /* media queries */
