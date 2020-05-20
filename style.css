@@ -16,7 +16,8 @@ body{
     font-family: 'cantarellregular', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     width: 1200px;
-    height:1460px;
+    height:1535px;
+    list-style-type: "";
 }
 
 /* fin */
@@ -128,15 +129,19 @@ section ul{
     position: relative;
 }
 
-#profil::after{
-    content: "";
-    border-bottom: solid 4px #795548;
-    height: 35px;
-    position: absolute;
-}
+
 
 #profil h2{
-    font-size: large;
+    font-size: 1.1em;
+    position: relative;
+}
+
+#profil h2::before{
+    content: "";
+    position: absolute;
+    border-bottom: solid 4px #795548;
+    height: 50px;
+    width: 85px;
 }
 
 #formation ul, #experience ul{
@@ -154,7 +159,13 @@ section ul{
     height: 90%;
 }
 #fgauche{
-    width: 10%;
+    width: 12%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+#fdroite{
+    width: 70%;
     height: 100%;
     margin-right: 5%;
 }
@@ -170,6 +181,20 @@ section ul{
     height: 100%;
     margin-right: 5%;
 }
+
+i{
+    color: #795548;
+}
+
+#experience i{
+    margin-left: -8%;
+}
+
+#formation i{
+    margin-left: -25%;
+    margin-right: 5%;
+}
+
 
 
 /* fin */
