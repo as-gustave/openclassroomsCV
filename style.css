@@ -217,6 +217,10 @@ i{
         margin-left: 0 ;
     }
 
+    .fgauche{
+        margin-right: 10px;
+    }
+
     #liseret{
         width: 100%;
     }
@@ -235,5 +239,8 @@ i{
         display: none;
     }
 
+    #contacts ul{
+        margin-right: 8%;
+    }
 
 }
