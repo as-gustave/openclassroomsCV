@@ -52,6 +52,10 @@ body{
     margin-right: 0.6em;
 }
 
+#smallscreen{
+    display: none;
+}
+
 #icone img{
     border: solid 4px black;
     margin: 0.7em;
@@ -220,6 +224,14 @@ i{
     }
     #recommandation{
         text-align: left;
+    }
+
+    #smallscreen{
+        display: block;
+    }
+
+    #profil h1{
+        display: none;
     }
 
 }
