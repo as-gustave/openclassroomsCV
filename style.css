@@ -162,7 +162,6 @@ section ul{
 .fgauche{
     width: 15%;
     height: 100%;
-    margin-right: %;
 }
 
 .fdroite{
@@ -186,11 +185,11 @@ i{
 }
 
 #experience i{
-    margin-left: -8%;
+    margin-left: -20px;
 }
 
 #formation i{
-    margin-left: -20%;
+    margin-left: -20px;
     margin-right: 5%;
 }
 
@@ -212,6 +211,11 @@ i{
         margin-right: 0;
     }
 
+    #formation li, #experience li{
+      
+        margin-left: 0 ;
+    }
+
     #liseret{
         width: 100%;
     }
@@ -230,8 +234,5 @@ i{
         display: none;
     }
 
-    .fgauche{
-        width: 70px;
-    }
 
 }
