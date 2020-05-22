@@ -190,7 +190,7 @@ i{
 }
 
 #formation i{
-    margin-left: -20px;
+    margin-left: -25px;
     margin-right: 5%;
 }
 
@@ -236,6 +236,10 @@ i{
     }
 
     #contacts ul{
+        margin-right: 5%;
+    }
+    #formation i{
+        margin-left: -20px;
         margin-right: 5%;
     }
 
