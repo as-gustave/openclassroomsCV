@@ -15,9 +15,7 @@
 body{
     font-family: 'cantarellregular', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
-    width: 1200px;
-    height:1535px;
-    list-style-type: "";
+    width: 1200;
 }
 
 /* fin */
@@ -25,13 +23,14 @@ body{
 /* liseret */
 
 #liseret{
-    width: 22%;
-    height: 100%;
+    width: 300px;
     background-color: #795548  ;
+    margin-right: 5%;
+
 }
 
 #liseret img{
-    width: 80%;
+    width: 215px;
     border: solid 5px #4b352d ;
     border-radius: 50%;
 }
@@ -76,7 +75,7 @@ body{
 /* contenu */
 
 #contenu{
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -89,12 +88,10 @@ section ul{
 #experience, #recommandation, #formation{
     width: 90%;
     text-align: justify;
-    margin-left: 5%;
 }
 
 #experience h1, #recommandation h1, #formation h1{
     border-bottom: solid 3px #795548 ;
-    margin-left: 5%;
 }
 
 #formation img, #experience img, #recommandation img{
@@ -120,7 +117,6 @@ section ul{
 }
 
 #profil{
-    text-indent: 3em;
     width: 100%;
     font-size: x-large;
     font-weight: bolder;
@@ -159,7 +155,7 @@ section ul{
     height: 90%;
 }
 #fgauche{
-    width: 12%;
+    width: 15%;
     height: 100%;
     margin-right: 5%;
 }
@@ -167,7 +163,6 @@ section ul{
 #fdroite{
     width: 70%;
     height: 100%;
-    margin-right: 5%;
 }
 
 #egauche{
@@ -179,7 +174,6 @@ section ul{
 #edroite{
     width: 40%;
     height: 100%;
-    margin-right: 5%;
 }
 
 i{
@@ -201,15 +195,31 @@ i{
 
 /* media queries */
 @media all and (max-width:1024px){
+
+
+    #profil{
+        text-align: center;
+    }
+
     #contenu{
-        flex-direction: column;
-        width: auto;
-    }
-    #liseret{
-        display: none;
-    }
-    #experience, #recommandation, #formation{
         width: 100%;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    #liseret{
+        width: 100%;
+    }
+
+
+    #page{
+        display: flex;
+        flex-direction: column;
+    }
+    #experience, #formation{
         text-align: justify;
+    }
+    #recommandation{
+        text-align: left;
     }
 }
