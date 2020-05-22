@@ -190,7 +190,7 @@ i{
 }
 
 #formation i{
-    margin-left: -25px;
+    margin-left: -20px;
     margin-right: 5%;
 }
 
@@ -215,10 +215,6 @@ i{
     #formation li, #experience li{
       
         margin-left: 0 ;
-    }
-
-    .fgauche{
-        margin-right: 10px;
     }
 
     #liseret{
